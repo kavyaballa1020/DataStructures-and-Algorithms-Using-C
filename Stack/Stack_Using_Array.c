@@ -32,7 +32,7 @@ void peek(){
 }
 void display(){
 	int i;
-	for(i=top;i>=0;i--){
+	for(i=0;i<N;i++){
 		printf("%d-->",stack[i]);
 	}
 	printf("\n");
